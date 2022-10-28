@@ -1,0 +1,238 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(66, 75, 75);
+    min-height: 90px;
+    padding-top: 30px;
+    border-bottom: 5px solid orangered;
+}
+
+.container {
+    padding: 10px 29px;
+    margin: auto;
+   
+}
+ h1 {
+    margin-top: 10px;
+    font-family: monospace
+} 
+ #A {
+    float: left;
+    color: white;
+} 
+
+#B {
+    float: right;
+} 
+
+nav>ul>li {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 25px;
+}
+/* .active{
+    color: green;
+    background-color: crimson;
+} */
+
+/* Section 2 css start here */
+
+.sec2 {
+    background-image: url("LIGHTHOUSE01.jpg");
+    width: 100%;
+    height: 400px;
+}
+
+.container2 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 120px;
+    color: white;
+    font-size: 35px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* Section 3 css start here */
+
+.sec3 {
+    background-color: rgb(66, 75, 75);
+    min-height: 90px;
+    padding-top: 30px;
+}
+
+.container3 {
+    display: flex;
+}
+
+h2 {
+
+    margin: auto;
+    color: white;
+    font-size: 29px;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px;
+}
+
+#inp {
+    margin: auto;
+    color: white;
+}
+
+.highlight {
+    background-color: rgb(240, 35, 28);
+    font-size: 17px;
+    padding: 9px;
+}
+
+/* Section 4 css start here */
+
+.sec4 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(241, 238, 234);
+}
+
+.wed {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+div>h3 {
+    margin: 10px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
+
+/* Footer css start here */
+
+footer {
+    background-color: rgb(240, 35, 28);
+    min-height: 90px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+/* About page css */
+/* abt css start here */
+.abt {
+    padding: 10px 20px;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(241, 238, 234);
+    /* padding: 20%; */
+}
+
+#d2 {
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(66, 75, 75);
+    /* margin: auto; */
+    margin: 15px 90px;
+    padding: 15px 30px;
+    width: 800px;
+    height: 200px;
+    /* font-size: 13px; */
+}
+
+#d1 {
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    /* margin: 15px 90px;
+        padding: 15px 30px; */
+    margin-left: 50px;
+
+}
+  
+/* media css start here */
+@media (max-width:500px) {
+
+#A{
+    float:none;
+    text-align: center;
+}
+#B{
+    float: none;
+}
+#B li{
+    display: block;
+    background-color: brown;
+    text-align: center;
+}
+
+
+    .sec2>p {
+        font-size: 10px;
+
+    }
+
+    .sec3 {
+        font-size: 20px;
+        margin: auto;
+        width:100%;
+        display: inline-block;
+    }
+
+    .container3>h2 {
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    input {
+        font-size: 10px;
+
+    }
+
+    .highlight {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .sec4 {
+        display: block;
+        padding:auto;
+        margin: auto;
+    }
+
+    Footer {
+
+        max-width: 100%;
+        display: block;
+    }
+    #d1{
+        display: flex;
+    }
+}
